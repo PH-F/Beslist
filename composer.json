@@ -1,0 +1,16 @@
+{
+    "name": "Phf/Beslist",
+    "authors": [
+        {
+            "name": "Patrick Houtman",
+            "email": "github@ph-f.nl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Phf\\Beslist\\": "src"
+        }
+    }
+}
