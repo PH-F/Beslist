@@ -19,11 +19,11 @@ class BeslistManager
         "products" => "/api/v2/wsdl/products.wsdl"
     ];
 
-    public function __construct($username, $password, $wsdl)
+    public function __construct($params)
     {
-        $this->username = $username;
-        $this->password = $password;
-        $this->wsdl = $wsdl;
+        $this->username = $params->userName;
+        $this->password = $params->password;
+        $this->wsdl = $params->wsdl;
     }
 
     public function connect($function, $param)
